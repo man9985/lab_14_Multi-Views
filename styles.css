@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	margin: 20px auto;
+}
+
+header {
+	border: 3px double black;
+	background-color: orange;
+	margin: 0 auto;
+}
+
+img {
+	margin-top: 50px;
+}
+
+li {
+	display: inline-block;
+	width: 20%;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+li a{
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	color: orange;
+	background-color: black;
+}
+
+h2 {
+	font-family: Impact;
+	color: red;
+	font-size: 100px;
+}
+
+h1 {
+	font-size: 60px;
+	color: bisque;
+	font-family: Courier; 
+	font-weight: bold;
+}

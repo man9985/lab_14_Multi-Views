@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 14 Views</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.js"></script>
+	<script src="script.js"></script>
+	<script src="controller.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body ng-app="myLab">
+<header>
+	<h1>Look at these Animals!</h1>
+<nav>
+	<ul>
+		<li><a href="#/cat">Cat</a></li>
+		<li><a href="#/dog">Dog</a></li>
+		<li><a href="#/shark">Shark</a></li>
+		<li><a href="#/octopus">Octopus</a></li>
+	</ul>
+</nav>
+</header>
+
+<ng-view>
+
+
+</ng-view>
+
+
+
+
+
+
+</body>
+</html>
